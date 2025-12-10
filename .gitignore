@@ -1,0 +1,21 @@
+cp.html
+# File sistem
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+
+# File konfigurasi lokal
+cp.html
+
+# Folder data sementara
+/data/
