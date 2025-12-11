@@ -42,6 +42,20 @@ img { max-width: 100%; display: block; }
 }
 
 /* 3. NAVBAR */
+/* === LOGO GAMBAR === */
+.logo img {
+    height: 80px;      /* Ukuran logo (bisa kamu sesuaikan) */
+    width: auto;
+    object-fit: contain;
+    display: block;
+    filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.4)); /* Outline soft */
+}
+
+/* Sesuaikan tinggi navbar saat scroll */
+#navbar.scrolled .logo img {
+    height: 80px;   /* Mengecil setelah scroll */
+}
+
 #navbar {
     background: var(--white);
     height: 80px;
